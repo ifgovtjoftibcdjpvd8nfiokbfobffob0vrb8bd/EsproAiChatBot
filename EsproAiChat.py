@@ -78,8 +78,8 @@ def getText(message):
 async def start_command(_, m: t.Message):
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("👤 Owner", url="https://t.me/Ur_Haiwan")],
-            [InlineKeyboardButton("➕ Add Me To Group", url="http://t.me/ChatEsproBot?startgroup=true")]
+            [InlineKeyboardButton("👤 Owner", url="https://t.me/ll_Ksd_ll")],
+            [InlineKeyboardButton("➕ Add Me To Group", url="https://t.me/PowerStudyChatgptBot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")]
         ]
     )
     await m.reply_text(
