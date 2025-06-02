@@ -18,7 +18,7 @@ def get_env_var(name: str) -> str:
     return value
 
 # ========== CONFIG ==========
-API_ID = int(get_env_var("API_ID", "28294093"))
+API_ID = int(get_env_var("API_ID", 28294093))
 API_HASH = get_env_var("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 BOT_TOKEN = get_env_var("BOT_TOKEN", "7033324811:AAEpwCS9ulTN_rFLBCunJ7Y6DGN0ivylxR8")
 
